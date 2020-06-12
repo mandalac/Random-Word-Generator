@@ -1,0 +1,37 @@
+div#counter{
+text-align: center;
+
+}
+
+
+div#word{
+    border: 3px solid black;
+    width:400px;
+    text-align: center;
+    position: absolute;
+    right: 35%;
+}
+
+div#generate{
+    background-color: green;
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    position: absolute;
+    right: 47%;
+    top: 15%;
+}
+div#reset{
+    background-color: red;
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    position: absolute;
+    right: 47%;
+    top: 21%;
+}
+a{
+    text-decoration: none;
+}

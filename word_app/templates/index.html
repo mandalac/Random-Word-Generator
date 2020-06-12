@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}"> 
+</head>
+<body>
+    <div id="counter">
+        <h1>Random Word(attempt # {{request.session.counter}})</h1>    
+    </div>
+    <div id="word">
+        {{word}}
+    </div>
+    <div id="generate">
+        <a href="/random">Generate</a>
+    </div>
+    <div id="reset">
+        <a href="/delete">Reset</a>
+    </div>
+</body>
+</html>
